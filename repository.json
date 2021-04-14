@@ -1,5 +1,5 @@
 {
-  "name": "Home Assistant Yamaha Receiver bridge",
+  "name": "Home Assistant Tuya dotnet core bridge",
   "url": "https://github.com/serkanp/tuyagateway",
   "maintainer": "Serkan Polat <http://www.ogretbana.com>"
 }
