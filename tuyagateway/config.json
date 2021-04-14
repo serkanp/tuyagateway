@@ -3,11 +3,21 @@
   "name": "dotnet core Bridge between Tuya devices and homeassistant",
   "version": "1.0.0",
   "url": "https://github.com/serkanp/tuyagateway",
-  "stage": "experimental",
+  "stage": "stable",
   "description": "Bridge between Tuya devices and homeassistant",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
-  "startup": "services",
+  "startup": "application",
   "boot": "auto",
+  "ports": {
+    "8090/tcp": 8090
+  },
+  "ports_description": {
+    "8090/tcp": "Webservice API"
+  },
+  "map": [],
+  "options": {
+    "token": "your long living token here"
+  },
   "schema": {
     "token": "str"
   }
