@@ -1,0 +1,14 @@
+{
+  "slug": "Tuya Gateway",
+  "name": "dotnet core Bridge between Tuya devices and homeassistant",
+  "version": "1.0.0",
+  "url": "https://github.com/serkanp/tuyagateway",
+  "stage": "experimental",
+  "description": "Bridge between Tuya devices and homeassistant",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "services",
+  "boot": "auto",
+  "schema": {
+    "token": "str"
+  }
+}

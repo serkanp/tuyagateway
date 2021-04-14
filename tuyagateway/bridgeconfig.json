@@ -1,0 +1,257 @@
+﻿{
+  "Url": "10.0.4.45",
+  "Port": 8123,
+  "Token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI4OWZjYjI3ZGU3YzA0ZDZjYmFjYjdhNTBjY2I5ODI4YiIsImlhdCI6MTYxNjA1NTYwMiwiZXhwIjoxOTMxNDE1NjAyfQ.XO70RKgItZ3R7y4QxrG3D6mghIZvV2i76Ea5WsXq1SM",
+  "tuya": {
+    "client_id": "fpjdgvjuaeppjccul65b",
+    "secret": "7466640a1cd3407db88e1349fbba00f7",
+    "url": "https://openapi.tuyaeu.com",
+    "uid": "eu1616235852793sPXXV",
+    "devices": [
+      {
+        "entity_id": "polatev_klima_salon",
+        "deviceId": "bfc759d162265a9920zd88",
+        "addExtraFunctions": true,
+        "addStatus": true,
+        "commands": [
+          {
+            "code": "switch",
+            "value": false,
+            "attributes": {},
+            "type": 0,
+            "status_item": "power"
+          },
+          {
+            "code": "fan",
+            "value": "high",
+            "attributes": {
+              "low": "low",
+              "mid": "mid",
+              "high": "high",
+              "auto": "auto"
+            },
+            "type": 2,
+            "status_item": ""
+          },
+          {
+            "code": "mode",
+            "value": "heat",
+            "attributes": {
+              "dehumidification": "dehumidification",
+              "cold": "cold",
+              "auto": "auto",
+              "wind_dry": "wind_dry",
+              "heat": "heat"
+            },
+            "type": 2,
+            "status_item": ""
+          },
+          {
+            "code": "temp",
+            "value": 24,
+            "attributes": {
+              "max": 30,
+              "min": 16,
+              "scale": 0,
+              "step": 1,
+              "type": "integer",
+              "unit": "℃"
+            },
+            "type": 1,
+            "status_item": ""
+          }
+        ]
+      },
+      {
+        "entity_id": "polatev_switch_yatak_odasi_sol",
+        "deviceId": "bfed1d901e4fdee62fjwl2",
+        "addExtraFunctions": true,
+        "addStatus": true,
+        "commands": [
+          {
+            "code": "switch_1",
+            "value": false,
+            "attributes": {},
+            "type": 0,
+            "status_item": "switch_1"
+          }
+        ]
+      },
+      {
+        "entity_id": "polatev_switch_masal_oda",
+        "deviceId": "bf6d71f296916eb396dyzv",
+        "addExtraFunctions": false,
+        "addStatus": true,
+        "commands": [
+          {
+            "code": "switch_1",
+            "value": false,
+            "attributes": {},
+            "type": 0,
+            "status_item": "switch_1"
+          }
+        ]
+      },
+      {
+        "entity_id": "polatev_switch_salon_lambader",
+        "deviceId": "47000505483fda79531a",
+        "addExtraFunctions": true,
+        "addStatus": true,
+        "commands": [
+          {
+            "code": "switch_1",
+            "value": false,
+            "attributes": {},
+            "type": 0,
+            "status_item": "switch_1"
+          }
+        ]
+      },
+      {
+        "entity_id": "polatev_switch_salon_uclu_lamba",
+        "deviceId": "bf3375742ad36a52e2puse",
+        "addExtraFunctions": false,
+        "addStatus": true,
+        "commands": [
+          {
+            "code": "switch_1",
+            "value": false,
+            "attributes": {},
+            "type": 0,
+            "status_item": "switch_1"
+          }
+        ]
+      },
+      {
+        "entity_id": "polatev_switch_yatak_odasi_sag",
+        "deviceId": "bf2fdceaad6c3e5858pgze",
+        "addExtraFunctions": false,
+        "addStatus": true,
+        "commands": [
+          {
+            "code": "switch_1",
+            "value": false,
+            "attributes": {},
+            "type": 0,
+            "status_item": "switch_1"
+          }
+        ]
+      },
+      {
+        "entity_id": "polatev_yamaha",
+        "deviceId": "bf442ca2ebecc8d30ehe4h",
+        "addExtraFunctions": true,
+        "addStatus": false,
+        "commands": [
+          {
+            "code": "switch",
+            "value": false,
+            "attributes": {},
+            "type": 0,
+            "status_item": ""
+          },
+          {
+            "code": "direction",
+            "value": "down",
+            "attributes": {
+              "up": "up",
+              "down": "down",
+              "left": "left",
+              "right": "right"
+            },
+            "type": 2,
+            "status_item": ""
+          },
+          {
+            "code": "volume_control",
+            "value": 22,
+            "attributes": {
+              "max": 999,
+              "min": 16,
+              "scale": 0,
+              "step": 1,
+              "type": "integer",
+              "unit": "℃"
+            },
+            "type": 1,
+            "status_item": ""
+          },
+          {
+            "code": "channel",
+            "value": 22,
+            "attributes": {
+              "max": 5,
+              "min": -5,
+              "scale": 1,
+              "step": 1,
+              "type": "integer",
+              "unit": "℃"
+            },
+            "type": 1,
+            "status_item": ""
+          },
+          {
+            "code": "channel_control",
+            "value": 22,
+            "attributes": {
+              "max": 5,
+              "min": -5,
+              "scale": 1,
+              "step": 1,
+              "type": "integer",
+              "unit": "℃"
+            },
+            "type": 1,
+            "status_item": ""
+          },
+          {
+            "code": "option",
+            "value": "ok",
+            "attributes": {
+              "sleep": "sleep",
+              "ok": "ok",
+              "mute": "mute",
+              "menu": "menu/set_menu",
+              "title": "title/level",
+              "enter": "enter",
+              "standby": "standby",
+              "rpt": "rpt a/b"
+            },
+            "type": 2,
+            "status_item": ""
+          }
+        ]
+      },
+      {
+        "entity_id": "polatev_salon_lg",
+        "deviceId": "bfeb1f37f7d66caf01yhn8",
+        "addExtraFunctions": true,
+        "addStatus": false,
+        "commands": [
+          {
+            "code": "channel",
+            "value": 10,
+            "attributes": {},
+            "type": 1,
+            "status_item": ""
+          }
+        ]
+      },
+      {
+        "entity_id": "polatev_dsmart",
+        "deviceId": "bf8d8421cc1b25c06bfmme",
+        "addExtraFunctions": false,
+        "addStatus": false,
+        "commands": [
+          {
+            "code": "channel",
+            "value": 10,
+            "attributes": {},
+            "type": 1,
+            "status_item": ""
+          }
+        ]
+      }
+    ]
+  }
+}
